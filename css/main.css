@@ -1,0 +1,43 @@
+nav
+{
+    background-color: chocolate;
+    color: #ffff;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+ 
+nav ul
+{
+    list-style-type: none;
+    overflow: hidden;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+nav li
+{
+    margin-left: 1.25rem;
+}
+ 
+nav ul li a
+{
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 10rem;
+}
+ 
+nav ul li a:hover
+{
+    background-color:black;
+    transition-duration: 2s;
+}
+
