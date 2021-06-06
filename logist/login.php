@@ -4,13 +4,11 @@
     <title>User Login and Registration</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-    
 </head>
 
 <body>
     <div class="container">
         <div class="login-box">
-            <div class="gambar" id="gambar">
             <div class="row">
                 <div class="col-md-6">
                     <h2>Login Here</h2>
@@ -39,7 +37,6 @@
                             <input type="password" name="password" class="form-control" required>
                         </div>
                         <button type="submit" class="btn btn-primary">Login</button>
-                        
                     </form>
                     <form action="home.html">
                         <button onclick="goBack()">Kembali</button>
@@ -50,7 +47,7 @@
                         </script> 
                     </form>
                 </div>
-                </div>
+
             </div>
 
         </div>
